@@ -71,7 +71,7 @@ export default function LandingPage() {
 
                 <div className="flex items-center justify-center sm:justify-start space-x-2 text-gray-700">
                   <Link
-                    href="https://github.com"
+                    href="https://github.com/wishaldubey/Javascript-Playground"
                     className="flex items-center hover:text-gray-900"
                   >
                     <FaStar className="mr-2" />{" "}
