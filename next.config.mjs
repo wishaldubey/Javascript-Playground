@@ -1,11 +1,7 @@
-/**
- * @type {import('next').NextConfig}
- */
-const nextConfig = {
+// next.config.mjs
+export default {
   reactStrictMode: true,
   experimental: {
-    appDir: true, // Ensure this is enabled
+    appDir: true, // Enable App Directory routing
   },
 };
-
-export default nextConfig;
