@@ -2,8 +2,10 @@
  * @type {import('next').NextConfig}
  */
 const nextConfig = {
-  // Configuration options
   reactStrictMode: true,
+  experimental: {
+    appDir: true, // Ensure this is enabled
+  },
 };
 
 export default nextConfig;
